@@ -1,0 +1,15 @@
+---
+# tasks file for testing
+- name: Get home var
+  shell: echo $HOME
+  register: home_res
+
+- debug:
+    var: home_res.stdout
+
+- name: Get hostname
+  shell: hostname
+  register: hostname_res
+
+- debug:
+    var: hostname_res.stdout

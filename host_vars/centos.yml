@@ -1,0 +1,2 @@
+ansible_port: 12022
+ansible_host: 127.0.0.1

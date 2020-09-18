@@ -1,0 +1,5 @@
+ansible_port: 11022
+ansible_host: 127.0.0.1
+ansible_become_method: su
+ansible_become_user: root
+ansible_become_pass: '{{ root_pass }}'

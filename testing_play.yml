@@ -1,0 +1,7 @@
+---
+- name: AWX
+  hosts: 
+    - mm_localhost
+
+  roles:
+    - testing
